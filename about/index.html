@@ -66,10 +66,8 @@
 
 
     <script src="/js/jquery-3.2.1.min.js"></script>
+    <script src="/js/lodash.core.min.js"></script>
     <script src="/js/foundation.min.js"></script>
-    <script>
-      $(document).foundation();
-    </script>
 
 </head>
 
@@ -81,7 +79,7 @@
 <!-- Banner -->
 
 <div data-sticky-container>
-   <nav class="top-bar" data-sticky data-options="marginTop:0;" style="width:100%">
+   <nav class="top-bar" data-sticky data-margin-top='0' data-margin-bottom='0' style="width:100%">
         <div class="top-bar-left">
           <a class="nav-logo" href="/" title="Cynthia Widawski">
               Cynthia Widawski
@@ -156,8 +154,8 @@
               
                 <li><a class="link first-nav nav-options dim f4 f4-l dib mr3 mr4-l"
                     href="/events"
-                    title="Events">
-                    Events
+                    title="Classes &amp; Events">
+                    Classes &amp; Events
                 </a></li>
               
             
@@ -234,6 +232,11 @@
             </div>
         </div>
     </div>
+
+<script>
+  $(document).foundation();
+</script>
+
 
 
 <!-- After Footer -->

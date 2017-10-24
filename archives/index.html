@@ -66,10 +66,8 @@
 
 
     <script src="/js/jquery-3.2.1.min.js"></script>
+    <script src="/js/lodash.core.min.js"></script>
     <script src="/js/foundation.min.js"></script>
-    <script>
-      $(document).foundation();
-    </script>
 
 </head>
 
@@ -83,7 +81,7 @@
 <!-- Banner -->
 
 <div data-sticky-container>
-   <nav class="top-bar" data-sticky data-options="marginTop:0;" style="width:100%">
+   <nav class="top-bar" data-sticky data-margin-top='0' data-margin-bottom='0' style="width:100%">
         <div class="top-bar-left">
           <a class="nav-logo" href="/" title="Cynthia Widawski">
               Cynthia Widawski
@@ -158,8 +156,8 @@
               
                 <li><a class="link first-nav nav-options dim f4 f4-l dib mr3 mr4-l"
                     href="/events"
-                    title="Events">
-                    Events
+                    title="Classes &amp; Events">
+                    Classes &amp; Events
                 </a></li>
               
             
@@ -190,7 +188,33 @@
     <div class="content">
         <div class="mw8 center">
             
-                <a href="/2017/10/16/hello-world/">
+                <a href="/events/Access-Bars-Class/">
+    <div class="dt w-100 hover-border-main-color pointer pa3 border-color bl mv3">
+        <div class="dtc v-mid w-20 black-50">
+            
+                <span class="f4 fw3 lh-copy">Oct 2017</span> 
+            
+        </div>
+        <div class="dtc v-mid w-80 black-70">
+            <span class="f4 fw3 lh-copy">Access Bars Class<span>
+        </div>
+    </div>
+</a>
+            
+                <a href="/events/Reiki-Training/">
+    <div class="dt w-100 hover-border-main-color pointer pa3 border-color bl mv3">
+        <div class="dtc v-mid w-20 black-50">
+            
+                <span class="f4 fw3 lh-copy">Oct 2017</span> 
+            
+        </div>
+        <div class="dtc v-mid w-80 black-70">
+            <span class="f4 fw3 lh-copy">Reiki I & II Training & Certification<span>
+        </div>
+    </div>
+</a>
+            
+                <a href="/events/hello-world/">
     <div class="dt w-100 hover-border-main-color pointer pa3 border-color bl mv3">
         <div class="dtc v-mid w-20 black-50">
             
@@ -238,6 +262,11 @@
             </div>
         </div>
     </div>
+
+<script>
+  $(document).foundation();
+</script>
+
 
 
 <!-- After Footer -->
