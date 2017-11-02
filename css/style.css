@@ -14,6 +14,9 @@ body {
 a:hover {
   color: #a9a9a9;
 }
+.main-content {
+  padding-right: 4em;
+}
 .content {
   margin-bottom: 8rem;
   margin-top: 8rem;
@@ -63,6 +66,16 @@ a:hover {
 .event-image img {
   padding-left: 0;
   padding-right: 0;
+}
+.register-dt {
+  margin-top: 1em;
+}
+.small-event-listing {
+  margin-right: 2em;
+}
+.content img.small-event-image {
+  width: 100%;
+  padding: 0;
 }
 .top-bar {
   background-color: #fff;
